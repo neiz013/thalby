@@ -1,0 +1,49 @@
+@mixin no-margin(){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin section{
+    margin: auto;
+    width: 73.88%;
+}
+
+@mixin wrapper{
+    width: 100%;
+}
+
+@mixin a(){
+    text-decoration: none;
+    color: #000;
+}
+
+@mixin fourth-h1{
+    font-weight: 700;
+    font-size: 225%;
+    line-height: 42px;
+    color: #000000;
+}
+
+@mixin fourth-p{
+    font-weight: 400;
+    font-size: 225%;
+    line-height: 42px;
+    color: #000000;
+    margin: 31px 0 40px 0;
+}
+
+@mixin fourth-a{
+    font-weight: 700;
+    font-size: 106.25%;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+@mixin sellers{
+    font-size: 106.25%;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
